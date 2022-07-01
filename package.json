@@ -1,0 +1,17 @@
+{
+  "name": "algebot",
+  "version": "1.0.0",
+  "description": "discord bot for math",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuvraj virdi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "discord.js": "^13.8.1",
+    "mathjs": "^10.6.4"
+  }
+}
