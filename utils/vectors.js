@@ -37,7 +37,9 @@ export const parseVectors = function(args, operation) {
       if (operation === 'add') {
         vector[j] += vectors[i][j]
       } 
-      vector[j] -= vectors[i][j]
+      if (operation === 'subtract_vectors') {
+        vector[j] -= vectors[i][j]
+      }
     }
   }
 
