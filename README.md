@@ -39,4 +39,40 @@ Topics:
 
 `!project [1,2] [7,4]`
 
+* **!orthogonal**: Checks if a set of vectors forms an orthogonal set
 
+`!orthogonal [1,2] [3,4]`
+
+## Matrices
+
+* **!add_matrices**: Adds two matrices
+
+`!add_matrices [1,2]/[1,2] [3,4]/[2,5]`
+
+* **!subtract_matrices**: Subtracts two matrices
+
+`!subtract_matrices [1,2]/[1,2] [3,4]/[2,5]`
+
+* **!multiply_matrices**: Multiplies two matrices
+
+`!multiplies_matrices [1,2]/[1,2] [3,4]/[2,5]`
+
+* **!inverse**: Finds the inverse of a matrix
+
+`!inverse [1,2]/[1,2]`
+
+* **!determinant**: Finds a determinant of a matrix
+
+`!determinant [1,2]/[1,2]`
+
+* **!rref**: Computes the row-reduced echelon form of a matrix
+
+`!rref [1,2,3]/[1,2,6]/[7,4,6]`
+
+* **!transpose**: Transposes a matrix
+
+`!tranpose [1,2]/[1,2]`
+
+* **!dimensions**: Finds the dimensions of a matrix
+
+`!dimensions [1,2]/[1,2]`
