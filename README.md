@@ -15,6 +15,7 @@ Topics:
 ## General
 
 `!ping`: Get the latency of the bot.
+
 `!commands`: Get the list of commands.
 
 
