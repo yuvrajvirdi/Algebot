@@ -8,13 +8,25 @@ Discord bot for advanced algebra.
 https://discord.com/api/oauth2/authorize?client_id=990799046211952700&permissions=8&scope=bot
 ```
 
-2. Build your docker container 
+2. Clone repo
+
+```bash
+https://github.com/yuvrajvirdi/algebot.git
+```
+
+3. Navigate into the directory
+
+```bash
+cd Algebot
+```
+
+4. Build your docker container (make sure you have docker installed)
 
 ```bash
 docker build -t my-bot .
 ```
 
-3. Run the container 
+5. Run the container 
 
 ```bash
 docker run -d my-bot
